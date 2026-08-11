@@ -48,8 +48,8 @@ function Nav() {
         <div className="ml-mono" style={{ display: 'flex', gap: 32, fontSize: 13.5, color: TOKENS.wait }}>
           <a href="#how">how it works</a>
           <a href="#features">features</a>
-          <a href="#pricing">pricing</a>
-          <a href="#docs">docs</a>
+          <a href="/pricing">pricing</a>
+          <a href="/docs">docs</a>
         </div>
         <div style={{ display: 'flex', gap: 10 }}>
           <button className="ml-btn ml-btn-ghost" style={{ fontSize: 13.5, padding: '9px 16px' }}>Sign in</button>
