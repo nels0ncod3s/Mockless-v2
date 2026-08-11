@@ -3,6 +3,7 @@ import Landing from './pages/Landing'
 import Dashboard from './pages/Dashboard'
 import Pricing from './pages/Pricing'
 import Docs from './pages/Docs'
+import Auth from './pages/Auth'
 import './index.css'
 
 function App() {
@@ -13,6 +14,8 @@ function App() {
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/docs" element={<Docs />} />
+        <Route path="/login" element={<Auth />} />
+        <Route path="/signup" element={<Auth />} />
       </Routes>
     </BrowserRouter>
   )
