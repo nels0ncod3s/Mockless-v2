@@ -72,7 +72,7 @@ function Hero() {
           </p>
           <div style={{ display: 'flex', gap: 14, alignItems: 'center', flexWrap: 'wrap' }}>
             <Link to="/dashboard" className="ml-btn ml-btn-primary">Start mocking free <ArrowRight size={16} /></Link>
-            <Link to="/docs" className="ml-btn ml-btn-ghost"> Read the docs </Link>
+            <Link to="/docs" className="ml-btn ml-btn-ghost"><span className="ml-mono">&gt;_</span> Read the docs</Link>
           </div>
           <p className="ml-mono" style={{ fontSize: 12.5, color: T.wait, marginTop: 16 }}>no backend required &middot; works with any framework &middot; free for solo devs</p>
         </div>
